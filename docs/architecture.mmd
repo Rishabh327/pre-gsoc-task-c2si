@@ -1,0 +1,54 @@
+flowchart TD
+    subgraph Clients["Client Layer"]
+        FE["Website / Frontend\n(Next.js / React)"]
+    end
+
+    subgraph API["API Layer"]
+        GW["API Gateway\n(Express / FastAPI)"]
+        CACHE["Response Cache\n(Redis — TTL-based)"]
+    end
+
+    subgraph Processing["Processing Layer"]
+        ING["Ingestion Service\n(GitHub API Poller +\nWebhook Receiver)"]
+        NORM["Normalisation &\nTransformation Worker"]
+        QUEUE["Message Queue\n(BullMQ / RabbitMQ)"]
+    end
+
+    subgraph Storage["Storage Layer"]
+        DB[("Primary Database\n(PostgreSQL)")]
+        REDIS_STORE[("Cache Store\n(Redis)")]
+        STATIC["Static Snapshot Files\n(S3 / GCS Bucket)"]
+    end
+
+    subgraph GitHub["GitHub"]
+        GHAPI["GitHub REST / GraphQL API"]
+        WEBHOOK["GitHub Webhooks"]
+    end
+
+    subgraph Scheduler["Scheduler"]
+        CRON["Cron Job\n(nightly full sync +\nhourly incremental sync)"]
+    end
+
+    %% Frontend → API
+    FE -->|"HTTP GET /api/repos"| GW
+    GW -->|"Cache hit?"| CACHE
+    CACHE -->|"Cache miss → query"| DB
+    CACHE -->|"Cached response"| GW
+    GW -->|"Response"| FE
+
+    %% Ingestion triggers
+    WEBHOOK -->|"push / release events"| ING
+    CRON -->|"scheduled trigger"| ING
+
+    %% Ingestion pipeline
+    ING -->|"raw repo data"| QUEUE
+    QUEUE -->|"job"| NORM
+    NORM -->|"normalised upsert"| DB
+    NORM -->|"invalidate keys"| REDIS_STORE
+    DB -->|"export snapshot"| STATIC
+
+    %% GitHub API calls
+    ING -->|"REST / GraphQL queries"| GHAPI
+
+    %% Cache backing
+    REDIS_STORE -.->|"read-through"| CACHE

@@ -1,0 +1,57 @@
+{
+  "input": "https://github.com/firstcontributions/first-contributions",
+  "status": "warning",
+  "stats": {
+    "owner": "firstcontributions",
+    "name": "first-contributions",
+    "fullName": "firstcontributions/first-contributions",
+    "description": "🚀✨ Help beginners to contribute to open source projects",
+    "url": "https://github.com/firstcontributions/first-contributions",
+    "stars": 44000,
+    "forks": 82000,
+    "openIssues": 210,
+    "watchers": 44000,
+    "contributors": 1000,
+    "languages": {
+      "Markdown": 45123
+    },
+    "recentCommits": 100,
+    "totalCommits": 520,
+    "ageInDays": 2920,
+    "isArchived": false,
+    "isEmpty": false,
+    "defaultBranch": "main",
+    "license": "MIT License",
+    "topics": ["hacktoberfest", "open-source", "git", "beginners"],
+    "createdAt": "2017-11-02T09:17:07Z",
+    "pushedAt": "2026-03-29T11:10:00Z"
+  },
+  "scores": {
+    "activityScore": 78.6,
+    "complexityScore": 26.3,
+    "learningDifficulty": "Beginner"
+  },
+  "breakdown": {
+    "activity": {
+      "starComponent": 31.6,
+      "forkComponent": 20.0,
+      "commitComponent": 25.0,
+      "issueComponent": 7.0,
+      "contributorComponent": 10.0,
+      "archivedPenalty": 0,
+      "total": 78.6
+    },
+    "complexity": {
+      "languageComponent": 4.0,
+      "contributorComponent": 15.0,
+      "commitComponent": 22.4,
+      "ageComponent": 16.0,
+      "total": 26.3
+    }
+  },
+  "warnings": [
+    "Only 1 language detected — this repository is mostly documentation/markdown rather than source code."
+  ],
+  "analyzedAt": "2026-03-29T12:00:00.000Z",
+  "cached": false
+}

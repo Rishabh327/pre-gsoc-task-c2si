@@ -1,0 +1,61 @@
+{
+  "input": "https://github.com/vercel/next.js",
+  "status": "success",
+  "stats": {
+    "owner": "vercel",
+    "name": "next.js",
+    "fullName": "vercel/next.js",
+    "description": "The React Framework",
+    "url": "https://github.com/vercel/next.js",
+    "stars": 127000,
+    "forks": 27100,
+    "openIssues": 2800,
+    "watchers": 127000,
+    "contributors": 3200,
+    "languages": {
+      "TypeScript": 48312400,
+      "JavaScript": 9124300,
+      "MDX": 1823400,
+      "CSS": 412300,
+      "Rust": 234500,
+      "Shell": 42300,
+      "Go": 12400
+    },
+    "recentCommits": 100,
+    "totalCommits": 2100,
+    "ageInDays": 3285,
+    "isArchived": false,
+    "isEmpty": false,
+    "defaultBranch": "canary",
+    "license": "MIT License",
+    "topics": ["nextjs", "react", "framework", "typescript", "vercel"],
+    "createdAt": "2016-10-05T23:31:11Z",
+    "pushedAt": "2026-03-29T09:45:00Z"
+  },
+  "scores": {
+    "activityScore": 91.0,
+    "complexityScore": 82.1,
+    "learningDifficulty": "Advanced"
+  },
+  "breakdown": {
+    "activity": {
+      "starComponent": 35.0,
+      "forkComponent": 20.0,
+      "commitComponent": 25.0,
+      "issueComponent": 10.0,
+      "contributorComponent": 10.0,
+      "archivedPenalty": 0,
+      "total": 91.0
+    },
+    "complexity": {
+      "languageComponent": 20.0,
+      "contributorComponent": 30.0,
+      "commitComponent": 26.6,
+      "ageComponent": 20.0,
+      "total": 82.1
+    }
+  },
+  "warnings": [],
+  "analyzedAt": "2026-03-29T12:00:00.000Z",
+  "cached": false
+}

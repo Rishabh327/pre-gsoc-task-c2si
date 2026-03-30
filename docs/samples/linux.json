@@ -1,0 +1,61 @@
+{
+  "input": "https://github.com/torvalds/linux",
+  "status": "success",
+  "stats": {
+    "owner": "torvalds",
+    "name": "linux",
+    "fullName": "torvalds/linux",
+    "description": "Linux kernel source tree",
+    "url": "https://github.com/torvalds/linux",
+    "stars": 180000,
+    "forks": 54000,
+    "openIssues": 0,
+    "watchers": 180000,
+    "contributors": 500,
+    "languages": {
+      "C": 931234567,
+      "Assembly": 43123456,
+      "Makefile": 12345678,
+      "Python": 3456789,
+      "Shell": 2345678,
+      "Perl": 1234567,
+      "C++": 234567
+    },
+    "recentCommits": 100,
+    "totalCommits": 1560,
+    "ageInDays": 10950,
+    "isArchived": false,
+    "isEmpty": false,
+    "defaultBranch": "master",
+    "license": "GNU General Public License v2.0",
+    "topics": ["linux", "kernel", "operating-system"],
+    "createdAt": "1991-01-01T00:00:00Z",
+    "pushedAt": "2026-03-29T10:00:00Z"
+  },
+  "scores": {
+    "activityScore": 89.3,
+    "complexityScore": 100.0,
+    "learningDifficulty": "Advanced"
+  },
+  "breakdown": {
+    "activity": {
+      "starComponent": 35.0,
+      "forkComponent": 20.0,
+      "commitComponent": 25.0,
+      "issueComponent": 0.0,
+      "contributorComponent": 9.3,
+      "archivedPenalty": 0,
+      "total": 89.3
+    },
+    "complexity": {
+      "languageComponent": 20.0,
+      "contributorComponent": 27.7,
+      "commitComponent": 25.1,
+      "ageComponent": 20.0,
+      "total": 100.0
+    }
+  },
+  "warnings": [],
+  "analyzedAt": "2026-03-29T12:00:00.000Z",
+  "cached": false
+}

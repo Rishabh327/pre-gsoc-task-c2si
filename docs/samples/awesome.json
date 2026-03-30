@@ -1,0 +1,57 @@
+{
+  "input": "https://github.com/sindresorhus/awesome",
+  "status": "warning",
+  "stats": {
+    "owner": "sindresorhus",
+    "name": "awesome",
+    "fullName": "sindresorhus/awesome",
+    "description": "😎 Awesome lists about all kinds of interesting topics",
+    "url": "https://github.com/sindresorhus/awesome",
+    "stars": 333000,
+    "forks": 27900,
+    "openIssues": 28,
+    "watchers": 333000,
+    "contributors": 320,
+    "languages": {
+      "Markdown": 12345
+    },
+    "recentCommits": 12,
+    "totalCommits": 382,
+    "ageInDays": 4015,
+    "isArchived": false,
+    "isEmpty": false,
+    "defaultBranch": "main",
+    "license": "Creative Commons Zero v1.0 Universal",
+    "topics": ["awesome", "lists", "resources", "curated"],
+    "createdAt": "2014-07-11T13:46:28Z",
+    "pushedAt": "2026-03-20T08:00:00Z"
+  },
+  "scores": {
+    "activityScore": 78.4,
+    "complexityScore": 14.9,
+    "learningDifficulty": "Beginner"
+  },
+  "breakdown": {
+    "activity": {
+      "starComponent": 35.0,
+      "forkComponent": 20.0,
+      "commitComponent": 11.4,
+      "issueComponent": 5.8,
+      "contributorComponent": 9.5,
+      "archivedPenalty": 0,
+      "total": 78.4
+    },
+    "complexity": {
+      "languageComponent": 4.0,
+      "contributorComponent": 12.9,
+      "commitComponent": 20.0,
+      "ageComponent": 20.0,
+      "total": 14.9
+    }
+  },
+  "warnings": [
+    "This repository is primarily a curated list (Markdown only) — complexity metrics reflect documentation rather than source code."
+  ],
+  "analyzedAt": "2026-03-29T12:00:00.000Z",
+  "cached": false
+}

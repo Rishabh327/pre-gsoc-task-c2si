@@ -1,0 +1,58 @@
+{
+  "input": "https://github.com/facebook/react",
+  "status": "success",
+  "stats": {
+    "owner": "facebook",
+    "name": "react",
+    "fullName": "facebook/react",
+    "description": "The library for web and native user interfaces.",
+    "url": "https://github.com/facebook/react",
+    "stars": 228000,
+    "forks": 46500,
+    "openIssues": 850,
+    "watchers": 228000,
+    "contributors": 1700,
+    "languages": {
+      "JavaScript": 18743210,
+      "HTML": 120340,
+      "CSS": 34210,
+      "Shell": 5820
+    },
+    "recentCommits": 67,
+    "totalCommits": 1204,
+    "ageInDays": 4380,
+    "isArchived": false,
+    "isEmpty": false,
+    "defaultBranch": "main",
+    "license": "MIT License",
+    "topics": ["react", "javascript", "library", "ui"],
+    "createdAt": "2013-05-24T16:15:54Z",
+    "pushedAt": "2026-03-28T14:23:11Z"
+  },
+  "scores": {
+    "activityScore": 86.4,
+    "complexityScore": 73.2,
+    "learningDifficulty": "Advanced"
+  },
+  "breakdown": {
+    "activity": {
+      "starComponent": 35.0,
+      "forkComponent": 20.0,
+      "commitComponent": 18.3,
+      "issueComponent": 9.1,
+      "contributorComponent": 10.0,
+      "archivedPenalty": 0,
+      "total": 86.4
+    },
+    "complexity": {
+      "languageComponent": 16.0,
+      "contributorComponent": 30.0,
+      "commitComponent": 24.8,
+      "ageComponent": 20.0,
+      "total": 73.2
+    }
+  },
+  "warnings": [],
+  "analyzedAt": "2026-03-29T12:00:00.000Z",
+  "cached": false
+}
